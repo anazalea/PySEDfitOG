@@ -1,0 +1,22 @@
+rffmt galaxev
+dotsed /Users/anneya/PySEDFit/TestFiles/bc2003_lr_m52_salp_ssp.sed
+dotfourcolor /Users/anneya/PySEDFit/TestFiles/bc2003_lr_m52_salp_ssp.4color
+filter_dir /Users/anneya/PySEDFit/TestFiles/FTCs/
+filter_names u_megacam.ftc AA
+filter_names subaru_g.ftc AA
+filter_names subaru_r.ftc AA
+filter_names subaru_i.ftc AA
+filter_names subaru_z.ftc AA
+filter_names HSC-Y.dat nm
+redshifts range  0.01 1.5 0.01 # min max step
+#redshifts values 0.1 1.0
+igm_law inoue
+igm_opacities values  1.0
+dust_law Calzetti2000
+returnmags no
+#output_overwrite yes
+ebvs values 0.0
+output_file /Users/anneya/PySEDfit/TestFiles/testTrapz.bbsed
+#models values 1 50 100 150
+#cosmology LCDM 0.3 0.7 70
+cosmology WMAP 9 # or WMAP X cosmological parameters Omega_M, Omega_L, Ho (in units of Omega, Omega, km/s/Mpc)

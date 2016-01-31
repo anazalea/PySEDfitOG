@@ -1,0 +1,18 @@
+# galex FUV filer
+# scanned by hand from a hardcopy plot on the galex website
+# wav(A) transmission
+1200	0
+1250	0
+1300	0.10
+1350	0.35
+1400	0.35
+1450	0.85
+1500	0.85
+1550	0.65
+1600	0.60
+1650	0.40
+1700	0.30
+1750	0.30
+1800	0.05
+1850	0
+1900	0

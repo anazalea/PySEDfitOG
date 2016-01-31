@@ -1,0 +1,16 @@
+# Tophat filter centered at 1600A with FW=500A
+#      WAVELENGTH      THROUGHPUT
+#       angstroms    
+1349 0 
+1350 1 
+1350 1 
+1400 1 
+1450 1 
+1500 1
+1550 1
+1600 1
+1650 1 
+1700 1 
+1800 1
+1850 1
+1851 0

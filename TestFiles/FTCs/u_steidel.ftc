@@ -1,0 +1,10 @@
+# Steidel's Un filter from Steidel & Hamilton 1993
+#      WAVELENGTH      THROUGHPUT
+#       angstroms
+3000	0
+3200	0.3
+3400	0.77
+3500	0.80
+3600	0.77
+3800	0.35
+4000	0

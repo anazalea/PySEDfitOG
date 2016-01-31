@@ -1,0 +1,12 @@
+# 3.2 micron filter - guessed at from Hogg et al 2000 HDF paper
+#      WAVELENGTH      THROUGHPUT
+#       angstroms       
+28000	0
+29000	0.5
+30000	1
+31000	1
+32000	1
+33000	1
+34000	1
+35000	0.5
+36000	0

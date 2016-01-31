@@ -1,0 +1,16 @@
+# Keck NIRC1 z filter, eyeballed from NIRC website
+#      WAVELENGTH      THROUGHPUT
+#       angstroms
+9200	0
+9400	0.02
+9600	0.30
+9800	0.72
+10000	0.66
+10200	0.64	
+10400	0.61
+10600	0.61
+10800	0.56
+11000	0.48
+11200	0.30
+11400	0.08
+11600	0

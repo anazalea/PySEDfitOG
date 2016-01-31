@@ -1,0 +1,23 @@
+# Gunn g band filter transmission from Fukugita et al. ( by eye)
+#      WAVELENGTH      THROUGHPUT
+#       angstroms         
+4000 0.
+4100 0.
+4200 0.
+4300 4.
+4400 10.
+4500 20.
+4600 70.
+4700 90.
+4800 100.
+4900 96.
+5000 92.
+5100 80.
+5200 65.
+5300 40.
+5400 20.
+5500 10.
+5600 5.
+5700 3.
+5800 1.
+5900 0.

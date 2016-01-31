@@ -1,0 +1,12 @@
+# Steidel's G filter from Steidel & Hamilton 1993
+#      WAVELENGTH      THROUGHPUT
+#       angstroms
+4000	0
+4200	0.4
+4400	0.73
+4600	0.71
+4800	0.8
+5000	0.78
+5200	0.7
+5400	0.1
+5600	0

@@ -1,0 +1,16 @@
+# Dummy tophat filter centered at 3000A.
+#      WAVELENGTH      THROUGHPUT
+#       angstroms    
+2749 0
+2750 1 
+2800 1
+2850 1
+2900 1 
+2950 1 
+3000 1
+3050 1 
+3100 1 
+3150 1 
+3200 1 
+3250 1 
+3251 0 

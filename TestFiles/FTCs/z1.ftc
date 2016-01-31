@@ -1,0 +1,12 @@
+# The Sloan z as scanned by eye by Mike Gladders and truncated at 10000A
+#      WAVELENGTH      THROUGHPUT
+#       angstroms
+8000.0 0.0
+8250.0 0.05 
+8500.0 0.20
+8750.0 0.25
+9000.0 0.25
+9250.0 0.22
+9500.0 0.17
+9750.0 0.125
+9999.0 0.000
