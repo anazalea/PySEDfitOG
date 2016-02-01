@@ -1,7 +1,7 @@
 rffmt galaxev
-dotsed /Users/anneya/PySEDFit/TestFiles/bc2003_lr_m52_salp_ssp.sed
-dotfourcolor /Users/anneya/PySEDFit/TestFiles/bc2003_lr_m52_salp_ssp.4color
-filter_dir /Users/anneya/PySEDFit/TestFiles/FTCs/
+dotsed bc2003_lr_m52_salp_ssp.sed
+dotfourcolor bc2003_lr_m52_salp_ssp.4color
+filter_dir /Users/anneyagolob/PySEDfitOG/TestFiles/FTCs/
 filter_names u_megacam.ftc AA
 filter_names subaru_g.ftc AA
 filter_names subaru_r.ftc AA

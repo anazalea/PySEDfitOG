@@ -26,6 +26,7 @@ from __future__ import division
 
 import sys
 import os
+print(sys.path)
 import init_PySEDfitOG
 PySEDfitPath=init_PySEDfitOG.PySEDfitPath
 import math
