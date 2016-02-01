@@ -22,11 +22,7 @@ from __future__ import print_function
 from __future__ import division
 
 import sys
-pySEDfitPath = '/Users/anneya/PySEDfit/'
-sys.path.append(pySEDfitPath+'src/')
-sys.path.append(pySEDfitPath+'src/IO/')
-sys.path.append('.')
-sys.path.append('../IO/')
+import init_PySEDfitOG
 import numpy as np
 from copy import deepcopy 
 import matplotlib.pyplot as plt
@@ -170,8 +166,7 @@ def ReadGalaxev(dotSed,dot4color):
         spex.append(spectrum.Spectrum(sed[:,0],sed[:,i+1],u.Unit('AA'),lSunA,params=ps))
     return(spex)
     
-#ps=param5.SetMakeSedParams('/Users/anneya/PySEDFit/Testfiles/testmakebbsed.param')
-#a=main(ps)
+
 
 if __name__ == "__main__":
     pfile = sys.argv[1]

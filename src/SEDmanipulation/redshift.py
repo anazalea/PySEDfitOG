@@ -23,8 +23,7 @@ from __future__ import print_function
 from __future__ import division
 
 import sys
-sys.path.append('.')
-sys.path.append('../IO/')
+import init_PySEDfitOG
 import numpy as np
 import spectrum
 from astropy import units as u

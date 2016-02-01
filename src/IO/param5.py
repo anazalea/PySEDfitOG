@@ -1,6 +1,6 @@
 from copy import deepcopy
 import re, os
-
+import init_PySEDfitOG
 #FIXME: add in other optional parameters
 
 

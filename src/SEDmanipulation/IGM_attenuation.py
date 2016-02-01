@@ -24,7 +24,7 @@ from __future__ import print_function
 from __future__ import division
 
 import sys
-sys.path.append('.')
+import init_PySEDfitOG
 import math
 import numpy as np
 from astropy import units as u
@@ -32,7 +32,7 @@ from copy import deepcopy
 import spectrum
 import matplotlib.pyplot as plt
 
-PySEDfitDir = '/Users/anneya/PySEDfit/'
+
 
 def IGMAttenuateSpectrum(spec,igmLaw,igmOpacity,z):
     '''
@@ -132,8 +132,8 @@ def Madau(lam,z):
 '''
 Inoue 2014 Helpher functions
 '''
-dlaLS = np.genfromtxt(PySEDfitDir+'src/SEDManipulation/DLAcoeff.txt')
-lafLS = np.genfromtxt(PySEDfitDir+'src/SEDManipulation/LAFcoeff.txt')
+dlaLS = np.genfromtxt(PySEDfitPath+'/src/SEDManipulation/DLAcoeff.txt')
+lafLS = np.genfromtxt(PySEDfitPath+'/src/SEDManipulation/LAFcoeff.txt')
 lambdaL = 911.8 # [AA]
 
 #------------------------------------------------------------------------------ 
