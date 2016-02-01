@@ -181,7 +181,7 @@ pip install --upgrade astroML
 \begin_layout Standard
 If you want to use PySEDfitOG from the CL, you'll also need to append its
  location to your python path.
- i.e 
+ 
 \end_layout
 
 \begin_layout Section

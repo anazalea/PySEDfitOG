@@ -181,7 +181,20 @@ pip install --upgrade astroML
 \begin_layout Standard
 If you want to use PySEDfitOG from the CL, you'll also need to append its
  location to your python path.
- 
+ Paste the following into your .bashrc (replacing /path/stuff/ with the location
+ of your PySEDfitOG download):
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+PYTHONPATH=$PYTHONPATH:/path/stuff/PySEDfitOG/src//
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+export PYTHONPATH
 \end_layout
 
 \begin_layout Section
