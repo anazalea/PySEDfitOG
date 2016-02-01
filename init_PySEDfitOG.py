@@ -27,7 +27,7 @@ import init_PySEDfitOG
 
 initpath = (init_PySEDfitOG.__file__).split('/')
 PySEDfitPath = '/'.join(initpath[:-1])
-sys.path.apend(PySEDfitPath+'/)
+sys.path.append(PySEDfitPath+'/')
 sys.path.append(PySEDfitPath+'/src/SEDManipulation/')
 sys.path.append(PySEDfitPath+'/src/IO/')
 
