@@ -188,7 +188,7 @@ If you want to use PySEDfitOG from the CL, you'll also need to append its
 \begin_layout Standard
 
 \family typewriter
-PYTHONPATH=$PYTHONPATH:/path/stuff/PySEDfitOG/src//
+PYTHONPATH=$PYTHONPATH:/path/stuff/PySEDfitOG/src/
 \end_layout
 
 \begin_layout Standard
