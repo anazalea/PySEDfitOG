@@ -1,5 +1,5 @@
 # Inoue et al. 2014 DLA coefficients
-# 0 j (line index)
+# 0 j (line index) 
 # 1 lambdaJ (AA)
 # 2 A_DLA_J1
 # 3 A_DLA_J2
