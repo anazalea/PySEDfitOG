@@ -23,6 +23,8 @@ from __future__ import division
 
 import sys
 import init_PySEDfitOG
+PySEDfitPath=init_PySEDfitOG.PySEDfitPath
+print(PySEDfitPath)
 import numpy as np
 from copy import deepcopy 
 import matplotlib.pyplot as plt

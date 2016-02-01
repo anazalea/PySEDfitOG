@@ -31,7 +31,8 @@ from astropy import units as u
 from copy import deepcopy 
 import spectrum
 import matplotlib.pyplot as plt
-
+import init_PySEDfitOG
+PySEDfitPath = init_PySEDfitOG.PySEDfitPath
 
 
 def IGMAttenuateSpectrum(spec,igmLaw,igmOpacity,z):

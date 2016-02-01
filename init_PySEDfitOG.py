@@ -23,9 +23,11 @@ from __future__ import division
 
 import os
 import sys
+import init_PySEDfitOG
+initpath = (init_PySEDfitOG.__file__).split('/')
+global PySEDfitPath
+PySEDfitPath = '/'.join(initpath[:-1])
 
-cwd = os.getcwd()
-sys.path.append(cwd+'/src/SEDManipulation/')
-sys.path.append(cwd+'/src/IO/')
-sys.path.append(cwd+'/src/ModelSelection/')
-PySEDfitPath = os.getcwd()
+sys.path.append(PySEDfitPath+'/src/SEDManipulation/')
+sys.path.append(PySEDfitPath+'/src/IO/')
+
