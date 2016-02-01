@@ -227,7 +227,7 @@ alias pyfitsed=
 \begin_inset Quotes eld
 \end_inset
 
- python /path/stuff/PySEDfitOG/src/ModelSelection/fitSED.py
+python /path/stuff/PySEDfitOG/src/ModelSelection/fitSED.py
 \begin_inset Quotes erd
 \end_inset
 

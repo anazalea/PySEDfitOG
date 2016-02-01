@@ -47,6 +47,7 @@ def SetParams(pfile, paramList, args=None):
         for x in args:
             if x[0] == '-' and x[1] not in '1234567890':
                 clKeys.append(x)
+        print(clKeys)
         clValues = re.split("-[a-z_]+\s+", ' '.join(args))[1:]
         clValues = map(str.strip, clValues)
         if len(clKeys) != len(clValues):
@@ -493,6 +494,7 @@ spaceCheckParams = [
 #------------------------------------------------------------------------------               
 def SetMakeSedParams(pfile,args=None):
     params = SetParams(pfile, makesedParams, args)
+    print('...')
     return(params)
     
 def SetFitSedParams(pfile,args=None):

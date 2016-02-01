@@ -197,7 +197,7 @@ If you want to use PySEDfitOG from the CL, you'll also need to append its
 \begin_layout Standard
 
 \family typewriter
-PYTHONPATH=$PYTHONPATH:/path/stuff/PySEDfitOG/src/
+PYTHONPATH=$PYTHONPATH:/path/stuff/PySEDfitOG/
 \end_layout
 
 \begin_layout Standard
@@ -232,6 +232,17 @@ python /path/stuff/PySEDfitOG/src/ModelSelection/fitSED.py
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+Then, from the PySEDfitOG directory, run
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size small
+python init_PySEDfitOG.py
 \end_layout
 
 \begin_layout Section
