@@ -24,7 +24,6 @@ from __future__ import division
 
 import sys
 import init_PySEDfitOG
-PySEDfitPath=init_PySEDfitOG.PySEDfitPath
 import numpy as np
 import spectrum
 from astropy import units as u

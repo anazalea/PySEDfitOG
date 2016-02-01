@@ -24,8 +24,8 @@ from __future__ import division
 import os
 import sys
 import init_PySEDfitOG
+
 initpath = (init_PySEDfitOG.__file__).split('/')
-global PySEDfitPath
 PySEDfitPath = '/'.join(initpath[:-1])
 
 sys.path.append(PySEDfitPath+'/src/SEDManipulation/')

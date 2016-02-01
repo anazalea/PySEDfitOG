@@ -1,0 +1,18 @@
+data_file testdata.txt
+data_flux_columns 2 3 4 5 6 7
+data_error_columns 8 9 10 11 12 13
+data_flux_unit flux
+data_param 0 idno %i
+data_param  1 z %.2f
+model_file test.bbsed
+model_flux_columns 6 7 8 9 10 11 
+model_flux_unit flux
+mag_softening 0.1
+model_param 1 log(age)  %.3e False
+model_param 2 e(b-v)  %.2f False
+model_param 3 modelNumber  %i False
+model_param  4 z %.2f False
+model_param 5 Mstars  %.3e True
+output_overwrite True
+output_file testfits.txt
+fitting_method brutefluxspace

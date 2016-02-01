@@ -111,8 +111,8 @@ github.com/anazalea/PySEDfitOG
 
 .
  But if you're reading this, you already knew that.
- After you've downloaded the repository's contents you might have to do
- a couple of things before you get SEDfitting.
+ After you've downloaded the repository's contents you should do a couple
+ of things before you get SEDfitting.
 \end_layout
 
 \begin_layout Standard
@@ -157,7 +157,7 @@ target "http://scikit-learn.org/stable/"
 \end_inset
 
 .
- To make sure everything is in order, consider executing the following commands:
+ To make sure everything is in order, execute the following commands:
 \end_layout
 
 \begin_layout Standard
@@ -181,7 +181,48 @@ pip install --upgrade astroML
 \begin_layout Standard
 If you want to use PySEDfitOG from the CL, you'll also need to append its
  location to your python path.
- i.e 
+ Paste the following into your .bashrc (replacing /path/stuff/ with the location
+ of your PySEDfitOG download):
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+PYTHONPATH=$PYTHONPATH:/path/stuff/PySEDfitOG/src/
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+export PYTHONPATH
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+alias pymakebbsed = 
+\begin_inset Quotes eld
+\end_inset
+
+python /path/stuff/PySEDfitOG/src/SEDmanipulation/makebbsed.py
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+alias pyfitsed = 
+\begin_inset Quotes eld
+\end_inset
+
+ python /path/stuff/PySEDfitOG/src/ModelSelection/fitSED.py
+\begin_inset Quotes erd
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -825,7 +866,7 @@ fitSED Parameters
 
 \begin_layout Standard
 \begin_inset Tabular
-<lyxtabular version="3" rows="25" columns="3">
+<lyxtabular version="3" rows="24" columns="3">
 <features rotate="0" islongtable="true" longtabularalignment="center">
 <column alignment="center" valignment="top" width="1.2in">
 <column alignment="center" valignment="top" width="1.5in">
@@ -1307,42 +1348,6 @@ output.txt
 \size footnotesize
 Name of output file.
  Can include full path.
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-output_file
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-outputFile.txt
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="block" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-Filename
 \end_layout
 
 \end_inset

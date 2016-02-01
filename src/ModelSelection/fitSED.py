@@ -26,7 +26,8 @@ from __future__ import division
 
 import sys
 import os
-
+import init_PySEDfitOG
+PySEDfitPath=init_PySEDfitOG.PySEDfitPath
 import math
 import numpy as np
 import param5
@@ -59,7 +60,7 @@ def main(params):
     
     if params['data_flux_unit']=='mag':
             dataFlux = 10.**(dataFlux/-2.5)
-            #dDataFlux += magSoftening
+            dDataFlux += params['mag_softening']
             dDataFlux = dataFlux*dDataFlux/1.086
             
     # Identify fitting function

@@ -24,13 +24,13 @@ from __future__ import print_function
 from __future__ import division
 
 import sys
-import init_PySEDfitOG
 import math
 import numpy as np
 from astropy import units as u
 from copy import deepcopy 
 import spectrum
 import matplotlib.pyplot as plt
+
 import init_PySEDfitOG
 PySEDfitPath = init_PySEDfitOG.PySEDfitPath
 
